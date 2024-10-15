@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(218, 217, 217);
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+main > .container {
+    width: 300px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 8px 7px rgba(0, 0, 0, 0.288);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container > #login {
+    padding: 10px;
+}
+
+#login > h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#login > p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#login p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: none;
+}
+
+form > .center {
+    background-color: burlywood;
+    height: 30px;
+    width: 250px;
+    margin: auto auto 12px auto;
+    border-radius: 8px;
+}
+
+form input {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    text-indent: 10px;
+}
+
+button {
+    background-color: indigo;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .5s;
+    outline: none;
+    width: 250px;
+    margin: auto;
+    display: block;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: rgb(127, 2, 216);
+    color: #a1a1a1;
+}
+
+form > button {
+    margin-bottom: 10px;
+}
+
+/*================*/
+
+.container > #text {
+    background-color: indigo;
+    padding: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#text > h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#text > p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin: 12px 0px;
+}
