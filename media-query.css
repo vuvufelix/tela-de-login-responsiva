@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main > .container {
+        width: 70vw;
+        transition: 0.2s;
+    }
+
+    #login {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    .container > #text {
+        float: right;
+        width: 50%;
+        height: 400px;
+        border-top-left-radius: 114px;
+        border-bottom-left-radius: 80px;
+    }
+
+    #text > h2 {
+        margin: 90px 0px 0px 0px;
+        font-size: 24px;
+    }
+
+    #text > p {
+        margin: 24px 0px 30px 0px;
+        font-size: 13px;
+    }
+
+    button {
+        width: 120px;
+    }
+
+    #login > h1 {
+        margin: 55px 0px;
+    }
+
+    #login  p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main > .container {
+        width: 80vw;
+        transition: 0.2s;
+    }
+
+    #login {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    .container > #text {
+        float: right;
+        width: 50%;
+        height: 400px;
+        border-top-left-radius: 114px;
+        border-bottom-left-radius: 80px;
+    }
+
+    #text > h2 {
+        margin: 90px 0px 0px 0px;
+        font-size: 30px;
+    }
+
+    #text > p {
+        margin: 24px 0px 30px 0px;
+        font-size: 15px;
+    }
+
+    button {
+        width: 160px;
+    }
+
+    #login > h1 {
+        margin: 55px 0px;
+        font-size: 28px;
+    }
+
+    #login  p {
+        font-size: 15px;
+    }
+}
